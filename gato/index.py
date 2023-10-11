@@ -1,11 +1,12 @@
 # Representación del tablero del Gato
 def inicializar_tablero():
     tablero = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-    tablero[0] = "O"
+    tablero[0] = "X"
+    tablero[1] = "O"
     tablero[2] = "O"
-    tablero[4] = "X"
-    tablero[5] = "O"
-    tablero[8] = "X"
+    tablero[3] = "X"
+    tablero[6] = "O"
+    tablero[7] = "X"
     return tablero
 
 # Función para imprimir el tablero
